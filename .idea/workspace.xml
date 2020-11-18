@@ -1,7 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="03c17bec-e2bf-48e1-91b0-8884a3b473b5" name="Default Changelist" comment="" />
+    <list default="true" id="03c17bec-e2bf-48e1-91b0-8884a3b473b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/failed_jobs.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/failed_jobs.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/licenses.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/licenses.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/memberships.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/memberships.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/migrations.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/migrations.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/password_resets.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/password_resets.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/users.frm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bdd/asso/users.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/adminer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pages/admin/users.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/aria_log.00000001" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/aria_log.00000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/aria_log_control" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/aria_log_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/ibtmp1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/column_stats.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/column_stats.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/column_stats.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/column_stats.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/columns_priv.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/columns_priv.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/columns_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/columns_priv.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/db.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/db.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/db.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/db.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/event.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/event.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/event.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/event.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/func.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/func.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/func.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/func.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/general_log.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/general_log.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/global_priv.MAD" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/global_priv.MAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/global_priv.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/global_priv.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/global_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/global_priv.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/gtid_slave_pos.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/gtid_slave_pos.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/gtid_slave_pos.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/gtid_slave_pos.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/help_category.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/help_category.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/help_category.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/help_category.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/help_keyword.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/help_keyword.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/help_keyword.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/help_keyword.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/help_relation.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/help_relation.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/help_relation.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/help_relation.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/help_topic.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/help_topic.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/help_topic.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/help_topic.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/index_stats.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/index_stats.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/index_stats.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/index_stats.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/innodb_index_stats.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/innodb_index_stats.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/innodb_table_stats.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/innodb_table_stats.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/plugin.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/plugin.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/plugin.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/plugin.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/proc.MAD" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/proc.MAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/proc.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/proc.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/proc.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/proc.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/procs_priv.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/procs_priv.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/procs_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/procs_priv.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/proxies_priv.MAD" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/proxies_priv.MAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/proxies_priv.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/proxies_priv.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/proxies_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/proxies_priv.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/roles_mapping.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/roles_mapping.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/roles_mapping.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/roles_mapping.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/servers.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/servers.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/servers.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/servers.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/slow_log.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/slow_log.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/table_stats.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/table_stats.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/table_stats.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/table_stats.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/tables_priv.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/tables_priv.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/tables_priv.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/tables_priv.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone_leap_second.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone_leap_second.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone_leap_second.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone_leap_second.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone_name.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone_name.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone_name.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone_name.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone_transition.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone_transition.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone_transition.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone_transition.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone_transition_type.MAI" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone_transition_type.MAI" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/time_zone_transition_type.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/time_zone_transition_type.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/transaction_registry.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/transaction_registry.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/transaction_registry.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/transaction_registry.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd/mysql/user.frm" beforeDir="false" afterPath="$PROJECT_DIR$/bdd/mysql/user.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +110,7 @@
     <execution />
   </component>
   <component name="EditorConfigPreviewManager">
-    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/database/migrations/2020_11_10_142008_create_licenses_table.php" />
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,6 +118,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -144,17 +245,28 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1k6GDMsmOwzvJKC4RLudb18UtyT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mc\Desktop\Cours\dev\resources\views\pages\admin" />
+      <recent name="C:\Users\mc\Desktop\Cours\dev\public" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -174,18 +286,48 @@
       <workItem from="1605014537351" duration="280000" />
       <workItem from="1605014842613" duration="122000" />
       <workItem from="1605014989232" duration="362000" />
-      <workItem from="1605015392166" duration="6510000" />
+      <workItem from="1605015392166" duration="7191000" />
+      <workItem from="1605167227288" duration="14540000" />
+      <workItem from="1605253279131" duration="7625000" />
+      <workItem from="1605263346592" duration="7709000" />
+      <workItem from="1605599444637" duration="633000" />
+      <workItem from="1605602056905" duration="28000" />
+      <workItem from="1605686519780" duration="107000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605019920626">
+    <state x="395" y="91" key="#Inspections" timestamp="1605262247156">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605019920626" />
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1605262247156" />
+    <state x="601" y="266" key="#Other_File_Types" timestamp="1605262175884">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="601" y="266" key="#Other_File_Types/0.0.1536.824@0.0.1536.824" timestamp="1605262175884" />
+    <state x="202" y="50" width="814" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605280971948">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="202" y="50" width="814" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605280971948" />
+    <state x="508" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605261718546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="508" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1605261718546" />
+    <state x="544" y="327" key="ComposerInitDialogKey" timestamp="1605170061497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="544" y="327" key="ComposerInitDialogKey/0.0.1536.824@0.0.1536.824" timestamp="1605170061497" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1605602082229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605262302554" />
+    <state x="686" y="211" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605602082229" />
     <state width="1342" height="387" key="GridCell.Tab.0.bottom" timestamp="1605014500378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -202,10 +344,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1342" height="387" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605014500378" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1605021009165">
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1605280981003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605021009165" />
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1605280981003" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1605262159130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605262159130" />
+    <state x="490" y="154" width="549" height="540" key="StructurePopup" timestamp="1605176405121">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="549" height="540" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1605176405121" />
     <state x="548" y="257" key="cloudConfig.PluginsDialog" timestamp="1605014816002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -214,6 +364,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="640" y="257" key="cloudConfig.SelfSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605014800394" />
+    <state x="479" y="0" width="577" height="824" key="find.popup" timestamp="1605193177729">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="0" width="577" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1605193177729" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605019892988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -40,8 +40,8 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=rootpassword
       - MYSQL_DATABASE=asso
-      - MYSQL_USER=admin
-      - MYSQL_PASSWORD=manager
+      - MYSQL_USER=asso
+      - MYSQL_PASSWORD=asso
     networks:
       - asso
 networks:

@@ -20,11 +20,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/admin/users/create', function () {
-    return view('admin');
-});
+// TODO : delete ça (useless)
+//Route::get('/admin/users/create', function () {
+//    return view('admin');
+//});
 
 Route::prefix('/admin')->group(function () {
+    // Affiche le menu de l'administration
+    Route::get('/', 'AdminController@index')->name('admin.index');
+
     // Afficher le formulaire de création de membre
     Route::get('/users/create', 'AdminController@usercreateform')->name('admin.usercreateform');
 
